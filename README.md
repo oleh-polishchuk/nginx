@@ -10,3 +10,6 @@ Nginx tips &amp; tricks
       rewrite  ^/(.*)$  http://www.$host/$1  permanent;
     }
     
+## Reload config
+
+    sudo service nginx reload
